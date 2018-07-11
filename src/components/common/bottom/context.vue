@@ -2,31 +2,31 @@
   <section class="wrap">
     <div class="btn-area flex flex-align-center flex-justify-between">
       <span>
-        <img src="../../../static/img/icon-edit.png" alt="edit">
+        <img src="../../../../static/img/icon-edit.png" alt="edit">
         写评论...
       </span>
       <span class="flex-empty"></span>
       <span>
-        <img src="../../../static/img/icon-coment.png" alt="">
+        <img src="../../../../static/img/icon-coment.png" alt="">
         100
       </span>
       <span>
-        <img src="../../../static/img/icon-like-active.png" alt="">
+        <img src="../../../../static/img/icon-like-active.png" alt="">
       </span>
       <span>
-        <img src="../../../static/img/icon-parise-active.png" alt="">
+        <img src="../../../../static/img/icon-parise-active.png" alt="">
       </span>
       <span>
-        <img src="../../../static/img/icon-share.png" alt="">
+        <img src="../../../../static/img/icon-share.png" alt="">
       </span>
     </div>
     <div class="text-area">
       <mt-field placeholder="请编辑评论内容" type="textarea" rows="2"></mt-field>
       <div class="img-list flex flex-justify-start">
-        <img src="../../../static/img/icon-upload.png" alt="upload">
+        <img src="../../../../static/img/icon-upload.png" alt="upload">
         <div class="img-box">
-          <img src="../../../static/img/icon-delete.png" alt="delete">
-          <img src="../../../static/img/icon-upload.png" alt="upload">
+          <img src="../../../../static/img/icon-delete.png" alt="delete">
+          <img src="../../../../static/img/icon-upload.png" alt="upload">
         </div>
         <div class="flex-empty"></div>
         <span class="my-btn">发表</span>

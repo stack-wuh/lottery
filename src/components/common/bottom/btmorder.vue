@@ -1,7 +1,7 @@
 <template>
   <section class="wrap flex flex-align-center flex-justify-around">
     <div class="content flex-empty flex">
-      <img src="../../../static/img/icon-clear.png" alt="clear">
+      <img src="../../../../static/img/icon-clear.png" alt="clear">
       <strong>0</strong>注 &nbsp;<strong>0</strong>元
     </div>
     <div class="btn btn-prev">发起合购</div>
@@ -21,6 +21,7 @@ export default {
   width:100%;
   height:60px;
   box-sizing: border-box;
+  background-color: #fff;
   .content{
     height:100%;
     padding:20px 10px;

@@ -10,16 +10,19 @@ import '../static/css/base.less'
 import '../static/css/mint.less'
 import '../static/css/font/iconfont.css'
 
-import MyTabbar from '@/components/common/tabbar'
-import MyButton from '@/components/common/button'
-import MyContext from '@/components/common/context'
-import MyBtmpay from '@/components/common/btmpay'
-import MyBtmorder from '@/components/common/btmorder'
+import MyTabbar from '@/components/common/bottom/tabbar'
+import MyButton from '@/components/common/bottom/button'
+import MyContext from '@/components/common/bottom/context'
+import MyBtmpay from '@/components/common/bottom/btmpay'
+import MyBtmorder from '@/components/common/bottom/btmorder'
 Vue.component('my-tabbar',MyTabbar)
 Vue.component('my-button',MyButton)
 Vue.component('my-context',MyContext)
 Vue.component('my-btmorder',MyBtmorder)
 Vue.component('my-btmpay',MyBtmpay)
+
+import MyCard from '@/components/common/list/card'
+Vue.component('my-card',MyCard)
 
 Vue.use(MintUI)
 
