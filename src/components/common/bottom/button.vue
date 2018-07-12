@@ -1,7 +1,9 @@
 <template>
   <section class="wrap flex flex-align-center flex-justify-center">
     <div class="btn-area">
-     <span class="btn">确定</span>
+     <span class="btn">
+       <slot name="text"></slot>
+     </span>
     </div>
   </section>
 </template>

@@ -15,11 +15,13 @@ import MyButton from '@/components/common/bottom/button'
 import MyContext from '@/components/common/bottom/context'
 import MyBtmpay from '@/components/common/bottom/btmpay'
 import MyBtmorder from '@/components/common/bottom/btmorder'
+import MyNavbar from '@/components/common/navbar'
 Vue.component('my-tabbar',MyTabbar)
 Vue.component('my-button',MyButton)
 Vue.component('my-context',MyContext)
 Vue.component('my-btmorder',MyBtmorder)
 Vue.component('my-btmpay',MyBtmpay)
+Vue.component('my-navbar',MyNavbar)
 
 import MyCard from '@/components/common/list/card'
 Vue.component('my-card',MyCard)
