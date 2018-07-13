@@ -21,6 +21,8 @@
 ## navbar顶部导航栏分离
 1. 个人中心模块 
   1. 关注 type:atten
+
+ 
 ## 详情
 
 
@@ -30,6 +32,15 @@
 
 ## 专家
 
-## 我的
+## 我的        
+ 1. 首页 index
+ 2. 钱包 wallet
 
 ## search搜索框
+
+
+## publish组件
+> 分离所有的发表类 
+1. 联系客服 params:concat
+2. 创建论坛 params:create
+3. 发帖子 params: post

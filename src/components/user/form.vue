@@ -102,6 +102,14 @@ export default {
             type: "default",
             isInput: true
           }
+        ],
+        pay:[
+          {
+            name:'充值金额',
+            value:'',
+            type:'default',
+            isInput:true,
+          }
         ]
       },
       visible: false,
@@ -170,6 +178,8 @@ export default {
         case "site":
           valid = this.form.site;
           break;
+        case 'pay' :
+          valid = this.form.pay
       }
       return valid;
     }

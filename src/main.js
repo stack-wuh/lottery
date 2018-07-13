@@ -16,12 +16,16 @@ import MyContext from '@/components/common/bottom/context'
 import MyBtmpay from '@/components/common/bottom/btmpay'
 import MyBtmorder from '@/components/common/bottom/btmorder'
 import MyNavbar from '@/components/common/navbar'
+import MyColList from '@/components/common/list/colList'
+// import MyPublish from '@/components/common/publish'
 Vue.component('my-tabbar',MyTabbar)
 Vue.component('my-button',MyButton)
 Vue.component('my-context',MyContext)
 Vue.component('my-btmorder',MyBtmorder)
 Vue.component('my-btmpay',MyBtmpay)
 Vue.component('my-navbar',MyNavbar)
+Vue.component('my-col-list',MyColList)
+// Vue.component('my-publish',MyPublish)
 
 import MyCard from '@/components/common/list/card'
 Vue.component('my-card',MyCard)

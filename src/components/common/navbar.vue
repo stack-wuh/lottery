@@ -1,7 +1,7 @@
 <template>
   <section class="wrap">
     <mt-navbar v-model="select">
-      <mt-tab-item v-for="(item,index) in navList" :key="index" :id="item.value">{{item.name}}</mt-tab-item>
+      <mt-tab-item @click.native="handleClick" v-for="(item,index) in navList" :key="index" :id="item.value">{{item.name}}</mt-tab-item>
     </mt-navbar>
   </section>
 </template>
@@ -33,6 +33,11 @@ export default {
   computed:{
     navList(){
       return this.list.atten
+    }
+  },
+  methods:{
+    handleClick(){
+      this.$emit('navSelect',this.select)
     }
   }
 }

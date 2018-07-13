@@ -12,7 +12,7 @@
             </div>
           </header>
         </li>
-        <li>
+        <li @click="jump2other('1','userWallet')">
           <img src="../../../static/img/user/icon-1.png" alt="icon">
           <strong>钱包</strong>
           <span class="flex-empty"></span>
@@ -23,7 +23,7 @@
           <p class="flex flex-align-center flex-justify-between" style="width:100%;">
             <span class="flex flex-justify-center" style="flex:1;height:30px;border-right:1px solid #FEF1E6;">
               <img src="../../../static/img/user/icon-2.png" alt="icon">
-              <strong>充值</strong>
+              <strong @click="jump2other('pay')">充值</strong>
             </span>
             <span class="flex flex-justify-center" style="flex:1;">
               <img src="../../../static/img/user/icon-3.png" alt="icon">
@@ -75,14 +75,14 @@ export default {
           {
             title: "帮助中心",
             icon: "../../../static/img/user/icon-7.png",
-            params:'',
-            path:'',
+            // params:'',
+            path:'userHelp',
           },
           {
             title: "联系客服",
             icon: "../../../static/img/user/icon-8.png",
-            params:'',
-            path:'',
+            // params:'',
+            path:'userConcat',
           }
         ]
       ],
@@ -116,11 +116,11 @@ export default {
 <style lang="less" scoped>
 .wrapper{
   height: 100%;
-  padding:10px 0;
+  padding:.625rem 0;
   box-sizing: border-box !important;
   .card {
     width: 100%;
-    padding: 10px 20px 0 20px;
+    padding:.625rem 1.25rem 0 1.25rem;
     border-radius: 4px;
     box-sizing: border-box;
     ul {
@@ -131,9 +131,9 @@ export default {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        height: 50px;
-        margin:0 20px;
-        line-height: 50px;
+        height:3.125rem;
+        margin:0 1.25rem;
+        line-height:3.125rem;
         border-bottom: 1px solid #FEF1E6;
       }
       li:last-of-type {
@@ -141,14 +141,14 @@ export default {
       }
       li.header{
         position: relative;
-        height:90px;
+        height:5.625rem;
         header{
           position: absolute;
-          top:-30px;
+          top:-1.875rem;
           display: flex;
           width:100%;
           .my-edit-input{
-            margin-left:15px;
+            margin-left:.9375rem;
           }
         }
       }
@@ -165,7 +165,8 @@ export default {
     border-radius: 50%;
   }
   img[alt="edit"]{
-    margin-left:5px;
+    // margin-left:5px;
+    margin-left:.3125rem;
   }
   .list-item:active{
     color: red;
